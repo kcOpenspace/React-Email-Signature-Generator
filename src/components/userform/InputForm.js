@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm } from "react-hook-form"
 
 const InputForm = () => {
+	const [data, setData] = useState([]);
   const { handleSubmit, register, errors } = useForm();
-	const onSubmit = values => console.log(values);
-  
+  const onSubmit = values => setData(values);
+
   return (
 	  <div>
 	    <h1>Email Signature Creation</h1>

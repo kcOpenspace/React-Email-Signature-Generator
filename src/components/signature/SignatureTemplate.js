@@ -1,7 +1,8 @@
 import React from 'react'
 import InputForm from '../userform/InputForm'
 
-const SignatureTemplate = () => {
+const SignatureTemplate = (data) => {
+
   return (
     <div>
 			<h1>SIGNATURE TEMPLATE</h1>
@@ -15,9 +16,9 @@ const SignatureTemplate = () => {
 					<div className="details-wrap">
 						<p>P: 1300 93 6564</p>
 						<p>M: 0430 17 3838</p>
-						<a>Perth Office</a>
-						<a>Melbourne Office</a>
-						<a>Sydney Office</a>
+						<a href="#">Perth Office</a>
+						<a href="#">Melbourne Office</a>
+						<a href="#">Sydney Office</a>
 						<a href="http://www.okmg.com">www.okmg.com</a>
 					</div>
 				</div>
