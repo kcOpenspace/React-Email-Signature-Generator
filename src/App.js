@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import InputForm from './components/userform/InputForm';
-import SignatureTemplate from './components/signature/SignatureTemplate'
 
 const App = () => {
 
+  // TODO:: ALLOW EXPORT TO PDF OR EMAIL
+
   return (
     <div className="App">
-      <div className="form-wrap">
+      <div className="form-container">
         <InputForm />
       </div>
     </div>
